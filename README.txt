@@ -1,4 +1,5 @@
 # Quiz-App
+
 First you need to run following commands to install required packages
 pip install Django
 pip install djangorestframework
@@ -11,5 +12,8 @@ python manage.py makemigrate
 python manage.py runserver
 
 After that your server will be ready and then whatever your localhost will be you can check the functionality by putting '/admin' in the URL.
-And you can also check these API's throught the postman. You can import  
+
+And you can also check these API's throught the postman. For that you have to import the .json collection file (given in the repository) into your postman app.
+
+You have first sign up/log in and then you can use that generated token everywhere.
 
